@@ -1,0 +1,185 @@
+{
+   "jurisdictions": [
+     {
+       "code": "HR",
+       "name": "Croatia",
+       "active": true
+     },
+     {
+       "code": "FR",
+       "name": "France",
+       "active": true
+     },
+     {
+       "code": "DE",
+       "name": "Germany",
+       "active": true
+     },
+     {
+       "code": "IT",
+       "name": "Italy",
+       "active": true
+     },
+     {
+       "code": "ES",
+       "name": "Spain",
+       "active": true
+     }
+   ],
+ 
+   "incentives": [
+      {
+      "id": 1,
+		"jurisdiction": {
+			"code": "HR",
+			"name": "Croatia",
+			"active": true
+		},
+		"type": "IncentiveType.REBATE",
+		"name": "incentive 1",
+		"eligible": [
+			"Eligible.FILM",
+			"Eligible.OTHER_TV",
+			"Eligible.TV_DRAMA"
+		],
+		"value": 25,
+		"valueDescription": "Additional 5% for productions filming in regions with below average development.",
+		"ppcDescription": "$734,000 (€663,614) — exceptions can be made for projects budgeted at more than $3m (€2.7m) in eligible Croatian spend.",
+		"abcDescription": "$11.7m (€10.6m)",
+		"applicationDeadline": "First‐come, first‐served though the complete application must be submitted at least eight days prior to the start of principal photography.",
+		"limits_restrictions_considearations": "Minimum spend of $294,000 (€265,445) for feature films and $110,000 (€99,542) for each TV episode. Applicant must be a Croatian producer, co‐producer or production service provider that has produced or provided services for at least one publicly shown audiovisual work in the past three years. Applicant must prove that at least 70% of financing for Croatian costs has been secured, that cast and crew consist of at least 30% national citizens for productions filming partially in Croatia, or 50% for productions filming entirely in Croatia, and pass a cultural test.",
+		"active": true
+	   },
+      {
+      "id": 2,
+      "jurisdiction": {
+         "code": "FR",
+         "name": "France",
+         "active": true
+      },
+      "type": "IncentiveType.REBATE",
+      "name": "incentive 1",
+      "eligible": [
+         "Eligible.FILM",
+         "Eligible.OTHER_TV",
+         "Eligible.TV_DRAMA",
+         "Eligible.OTHER"
+      ],
+      "value": 30,
+      "valueDescription": "A rate of 40% is applicable to works of fiction with strong visual effects, which generate at least $2.2m (€2m) in expenses relating to the digital processing (VFX) of frames in France.",
+      "ppcDescription": "$33m (€30m)",
+      "abcDescription": "$11.7m (€10.6m)",
+      "applicationDeadline": "",
+      "limits_restrictions_considearations": "Application must be submitted by a company subject to corporate income tax in France that has been contracted to manage the physical production in France. Projects cannot be in receipt of any French state traditional financial support, so official French co-productions do not qualify. Minimum spend is $276,000 (€250,000) or at least 50% of the total budget to be spent in France. Live-action projects must shoot for at least five days. Cultural test applies (bespoke version for animation/VFX).",
+      "active": true
+      },
+      {
+      "id": 3,
+		"jurisdiction": {
+			"code": "DE",
+			"name": "Germany",
+			"active": true
+		},
+		"type": "IncentiveType.REBATE",
+		"name": "incentive 1",
+		"eligible": [
+			"Eligible.FILM",
+			"Eligible.DOCUMENTARY"
+		],
+		"value": 20,
+		"valueDescription": "DFFF 1 is worth 25% for projects with German production costs of more than $8.7m (€8m).",
+		"ppcDescription": "$4.3m (€4m)",
+		"abcDescription": "DFFF and GMPF combined for 2023 is $184m (€166m).",
+		"applicationDeadline": "no later than six weeks before the start of shooting.",
+		"limits_restrictions_considearations": " minimum production costs of $1.1m (€1m) for features, $221,500 (€200,000) for documentaries and $2.2m (€2m) for animated films. German production costs must be 25% of total, or 20% if total costs exceed $21.7m (€20m). Film must be released theatrically in Germany. Cultural test applies. At least 75% of the total budget must be confirmed before the grant can be issued, but the application can be made before this is secured.",
+		"active": true
+      },
+      {
+      "id": 4,
+      "jurisdiction": {
+         "code": "DE",
+         "name": "Germany",
+         "active": true
+      },
+      "type": "IncentiveType.REBATE",
+      "name": "incentive 2",
+      "eligible": [
+         "Eligible.FILM"
+      ],
+      "value": 25,
+      "valueDescription": "",
+      "ppcDescription": "$27.6m (€25m)",
+      "abcDescription": "DFFF and GMPF combined for 2023 is $184m (€166m).",
+      "applicationDeadline": "no later than six weeks before the start of shooting.",
+      "limits_restrictions_considearations": "Can be used for entire productions as well as specific elements of a production, such as VFX. Feature films must have minimum German production costs of $8.7m (€8m), with minimum production costs of $21.7m (€20m). German production costs for animated films must amount to at least $2.2m (€2m). Cultural test applies. At least 75% of the total budget must be confirmed before the grant can be issued, but the application can be made before this is secured. Productions are required to meet environmental standards outlined in updated guidelines.",
+      "active": true
+      },
+      {
+      "id": 5,
+      "jurisdiction": {
+         "code": "DE",
+         "name": "Germany",
+         "active": true
+      },
+      "type": "IncentiveType.REBATE",
+      "name": "incentive 3",
+      "eligible": [
+         "Eligible.TV_DRAMA",
+         "Eligible.OTHER_TV"
+      ],
+      "value": 25,
+      "valueDescription": "5% uplift for series with German costs of at least $26.5m (€24m) and which score 70 points or more in the cultural test.",
+      "ppcDescription": "$2.8m (€2.5m) per film, $2.8m (€2.5m) per series, or $4.3m (€4m) for series with German spend of more than $24m (€21.7m). For series with German costs of at least $26.5m (€24m) and which score 70 points or more in the cultural test, the per-project cap is $6.6m (€6m) if German production costs are less than $35.3m (€32m), $8.7m (€8m) if German production costs are less than $44m (€40m), or $10.8m (€10m) if German production costs are more than $44m (€40m)",
+      "abcDescription": "DFFF and GMPF combined for 2023 is $184m (€166m).",
+      "applicationDeadline": "Six weeks before the start of shooting.",
+      "limits_restrictions_considearations": "The German production costs of the project must be at least 40% of the total production costs. Eligible applicants are producers or co-producers with a registered office or branch in Germany who have already produced a film or series within the last five years. Productions are required to meet environmental standards outlined in updated guidelines.",
+      "active": true
+      },
+      {
+      "id": 6,
+		"jurisdiction": {
+			"code": "IT",
+			"name": "Italy",
+			"active": true
+		},
+		"type": "IncentiveType.TAX_CREDIT",
+		"name": "incentive 1",
+		"eligible": [
+			"Eligible.FILM",
+			"Eligible.TV_DRAMA",
+         "Eligible.OTHER_TV",
+         "Eligible.DOCUMENTARY"
+		],
+		"value": 40,
+		"valueDescription": "",
+		"ppcDescription": "$21.7m (€20m) annual per‑company cap",
+		"abcDescription": "Minimum $27.6m (€25m). Possible increase based on the applications.",
+		"applicationDeadline": "",
+		"limits_restrictions_considearations": "Tax credit for Italian executive production and post-production companies working on foreign productions. Maximum annual limit for each company or group of companies of $21.7m (€20m). Italian companies do not have to hold shares of rights. Companies must submit application not before 90 days before the beginning of the activities in Italy. Cultural test applies. Italy’s Law 220/2016 also provides tax credits for the development, production, national distribution and international distribution of local projects, and for investors from outside the film and television sector.",
+		"active": true
+     },
+     {
+      "id": 7,
+		"jurisdiction": {
+			"code": "ES",
+			"name": "Spain",
+			"active": true
+		},
+		"type": "IncentiveType.REBATE",
+		"name": "incentive 1",
+		"eligible": [
+			"Eligible.FILM",
+			"Eligible.TV_DRAMA",
+         "Eligible.OTHER_TV",
+         "Eligible.DOCUMENTARY"
+		],
+		"value": 30,
+		"valueDescription": "30% tax rebate at national level (up to $1.1m [€1m] expenditure, and 25% after); at regional level there is a 35% tax credit in Navarre and a 50% tax rebate in Canary Islands (up to $1.1m [€1m] expenditure, and 45% after).",
+		"ppcDescription": "$21.7m (€20m) for each production. In the case of audiovisual series, the incentive will be determined per episode and the limit will be $10.8m (€10m) per episode.",
+		"abcDescription": "",
+		"applicationDeadline": "Must be applied for by the Spanish company in the month of July of the year after the end of filming.",
+		"limits_restrictions_considearations": "For Spanish productions and co-productions: at least 50% of the deduction base corresponds to expenses incurred in Spanish territory. For foreign productions: $1.1m (€1m) minimum expenditure in Spain is required for the tax rebate. For animation and post-production, the minimum expenditure required in Spain is $221,000 (€200,000). The applicant production company must be registered in Spain as a producer.",
+		"active": true
+     }
+   ]
+ }

@@ -1,0 +1,30 @@
+{
+	"jurisdiction": {
+		"code": "HR",
+		"name": "Croatia",
+		"active": true
+	},
+
+	"incentives": [{
+		"id": 1,
+		"jurisdiction": {
+			"code": "HR",
+			"name": "Croatia",
+			"active": true
+		},
+		"type": "IncentiveType.REBATE",
+		"name": "incentive 1",
+		"eligible": [
+			"Eligible.FILM",
+			"Eligible.OTHER_TV",
+			"Eligible.TV_DRAMA"
+		],
+		"value": 25,
+		"valueDescription": "Additional 5% for productions filming in regions with below average development.",
+		"ppcDescription": "$734,000 (€663,614) — exceptions can be made for projects budgeted at more than $3m (€2.7m) in eligible Croatian spend.",
+		"abcDescription": "$11.7m (€10.6m)",
+		"applicationDeadline": "First‐come, first‐served though the complete application must be submitted at least eight days prior to the start of principal photography.",
+		"limits_restrictions_considearations": "Minimum spend of $294,000 (€265,445) for feature films and $110,000 (€99,542) for each TV episode. Applicant must be a Croatian producer, co‐producer or production service provider that has produced or provided services for at least one publicly shown audiovisual work in the past three years. Applicant must prove that at least 70% of financing for Croatian costs has been secured, that cast and crew consist of at least 30% national citizens for productions filming partially in Croatia, or 50% for productions filming entirely in Croatia, and pass a cultural test.",
+		"active": true
+	}]
+}
