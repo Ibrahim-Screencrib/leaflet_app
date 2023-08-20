@@ -45,7 +45,7 @@ app = Flask(__name__)
 
 @app.route('/api/answer')
 def answer():
-  question = "What is the capital of New Hampshire?"
+  question = "What is are alternative countries to film in based on this {country}?"
   
   # Run llm_chain
   response = llm_chain.run(question)
